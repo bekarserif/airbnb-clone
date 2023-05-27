@@ -16,3 +16,5 @@ export type SafeUser = Omit<User, 'createdAt' | 'updatedAt' | 'emailVerified'> &
   updatedAt: string;
   emailVerified: string | null;
 };
+
+// export type SafeFavorites = <Omit>
